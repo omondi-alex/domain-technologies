@@ -1,0 +1,124 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-color: #f7f7f7;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .hero-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    color: #888888;
+    margin-bottom: 40px;
+  }
+  
+  .hero-button {
+    display: inline-block;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 30px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #555555;
+  }
+  
+  /* About Section Styles */
+  .about-section {
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .section-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #888888;
+    margin-bottom: 40px;
+  }
+  
+  /* Services Section Styles */
+  .services-section {
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+  }
+  
+  .service-card {
+    padding: 30px;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #888888;
+  }
+  
+  /* Contact Section Styles */
+  .contact-section {
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .contact-button {
+    display: inline-block;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 30px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #555555;
+  }
+  
